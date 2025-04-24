@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 { text-align: center; }
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  form input, form select, form button {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+  }
+  .book {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #007BFF;
+  }
+  .book.borrowed {
+    border-left-color: #28a745;
+  }
+  .search {
+    margin: 20px 0;
+  }
+  .history {
+    font-size: 0.9em;
+    color: #555;
+  }
